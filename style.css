@@ -1,0 +1,89 @@
+/* Here goes your CSS */
+
+body {
+  background-color: #EBEBEB;
+  font-family: Open-Sans;
+  font-size: 18px;
+  color: rgb(128, 130, 135);
+}
+
+h1 {
+  font-family: Montserrat;
+  color: rgb(30, 30, 30);
+  size: 80%;
+  color: #C61414;
+}
+
+h2 {
+  font-family: Montserrat;
+  color: rgb(30, 30, 30);
+}
+
+h3 {
+  font-family: Montserrat;
+  color: rgb(30, 30, 30);
+}
+
+a {
+  color: #4D394B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(128, 130, 135);
+  text-decoration: none;
+}
+
+.card {
+  background: white;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#profile-pict {
+  width: 150px;
+  height: 150px;
+  border: 5px solid grey;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.shadowed {
+  box-shadow: 5px 5px 3px black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.button-red {
+  background-color: #C61414;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.button-red:hover {
+  background-color:#820E0E;
+  color: white;
+  transition: background 2s;
+}
